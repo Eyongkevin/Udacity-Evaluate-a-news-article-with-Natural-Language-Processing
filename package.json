@@ -1,0 +1,43 @@
+{
+    "name": "Evaluate_a_news_article_with_NPL",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "jest",
+        "start": "node src/server/server.js",
+        "build-prod": "webpack --config webpack.prod.js",
+        "build-dev": "webpack-dev-server --open --config webpack.dev.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/runtime": "^7.5.5",
+        "aylien_textapi": "^0.7.0",
+        "babel-loader": "^8.0.6",
+        "babel-polyfill": "^6.26.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "css-loader": "^3.0.0",
+        "dotenv": "^8.1.0",
+        "express": "^4.17.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.7"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.5.5",
+        "clean-webpack-plugin": "^3.0.0",
+        "node-mocks-http": "^1.7.6",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "supertest": "^4.0.2",
+        "ejs": "^2.6.2",
+        "jest": "^24.9.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "webpack-bundle-analyzer": "^3.4.1",
+        "webpack-dev-server": "^3.8.0",
+        "workbox-webpack-plugin": "^4.3.1"
+    }
+}

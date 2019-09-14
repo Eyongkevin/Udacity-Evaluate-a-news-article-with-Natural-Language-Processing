@@ -1,0 +1,22 @@
+footer {
+    padding: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(113, 57, 113);
+    color: white;
+    text-align: center;
+}
+
+//phone
+@media only screen and (max-width: 715px) {
+}
+
+// tablet
+@media only screen and (max-width: 990px) {
+}
+
+// desktop
+@media only screen and (min-width: 901px) {
+}

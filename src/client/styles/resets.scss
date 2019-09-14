@@ -1,0 +1,39 @@
+h1 {
+	font-size: 45px;
+	text-align:center;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+	text-align:center;
+}
+
+h3 {
+    font-size: 18px;
+	font-weight: bold;
+	
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    margin: 60px 10%;
+}
+
+//phone
+@media only screen and (max-width: 715px) {
+}
+
+// tablet
+@media only screen and (max-width: 990px) {
+}
+
+// desktop
+@media only screen and (min-width: 901px) {
+}
